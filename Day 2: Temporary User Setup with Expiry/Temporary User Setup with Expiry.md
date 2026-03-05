@@ -6,8 +6,8 @@ To ensure smooth access management, a temporary user account with an expiry date
 - Create a user named `siva` on `App Server 1` in Stratos Datacenter. Set the expiry date to `2026-12-07` ensuring the user is created in lowercase as per standard protocol.
 
 #### STEPS:
-1. Connect to App Server 1
-  `ssh tony@stapp01` \
+1. Connect to App Server 1 \
+  `ssh tony@stapp01` 
 - When prompted, enter the password for user `tony`
 
 
