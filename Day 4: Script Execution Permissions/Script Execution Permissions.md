@@ -22,5 +22,5 @@ Your task is to grant executable permissions to the `/tmp/xfusioncorp.sh` script
 5. Verify that the script is now executable \
    `ls -l /tmp/xfusioncorp.sh`
 
-6. Exit the server
+6. Exit the server \
    `exit`
