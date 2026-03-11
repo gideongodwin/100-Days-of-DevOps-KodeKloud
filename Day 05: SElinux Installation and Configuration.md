@@ -14,7 +14,7 @@ Following a security audit, the xFusionCorp Industries security team has opted t
 
 2. Switch to Root User \
    `sudo -i`
-3. Install SELinux packages
+3. Install SELinux packages \
    `yum install selinux* --skip-broken -y`
 
 4. Edit the SELinux config file:
