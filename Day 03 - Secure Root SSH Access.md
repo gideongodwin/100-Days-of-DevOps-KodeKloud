@@ -22,13 +22,17 @@
    - Change it to: PermitRootLogin `no`
   
 4. Save the File
-   `:wq
+    ```
+    :wq
+    ```
 
-6. Restart the SSH Service
-   `systemctl restart sshd`
-
-7. Exit the server
-   `exit`
-
-8. Repeat steps 1 to 7 for the remaining servers:
+5. Restart the SSH Service
+    ```
+    systemctl restart sshd`
+    ```
+6. Exit the server
+```
+exit
+```
+7. Repeat steps 1 to 6 for the remaining servers
    
