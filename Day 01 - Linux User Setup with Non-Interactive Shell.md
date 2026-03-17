@@ -1,7 +1,7 @@
 ## Day 1 - Linux User Setup with Non-Interactive Shell
 
 ## Task Details 
-Create a user named `jim` with a non-interactive shell on `App Server 1`
+- Create a user named `jim` with a non-interactive shell on `App Server 1`
 
 ## Steps:
 
