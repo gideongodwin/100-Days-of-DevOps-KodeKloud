@@ -11,6 +11,6 @@ Create a user named `siva` on `App Server 1` in Stratos Datacenter. Set the expi
     > When prompted, enter the password for user `tony`
 
 2. Create the User with the expiry date `2026-12-07`
-  ```
-  sudo adduser -e 2026-12-07 siva
-  ```
+    ```
+    sudo adduser -e 2026-12-07 siva
+    ```
