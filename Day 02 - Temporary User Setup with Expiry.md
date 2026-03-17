@@ -3,7 +3,7 @@
 ### Task Details:
 Create a user named `siva` on `App Server 1` in Stratos Datacenter. Set the expiry date to `2026-12-07` ensuring the user is created in lowercase as per standard protocol.
 
-### Steps:
+## Steps:
 
 1. Log into the app server 
     ```
