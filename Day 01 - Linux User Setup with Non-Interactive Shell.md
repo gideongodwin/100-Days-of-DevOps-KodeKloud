@@ -4,7 +4,7 @@
 Create a user named `jim` with a non-interactive shell on `App Server 1`
 
 ### Steps:
-1. Log in to the app server and switch to root user
+1. Log into the app server and switch to root user
     ```
     ssh tony@stapp01
     sudo -i
