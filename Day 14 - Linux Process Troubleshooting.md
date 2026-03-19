@@ -7,42 +7,42 @@ Identify the faulty app host and fix the issue. Make sure Apache service is up a
 
 #### Steps:
 1. Check all servers Apache status
-```
-curl -Ik http://stapp01:6200
-curl -Ik http://stapp02:6200
-curl -Ik http://stapp03:6200
-```
+    ```
+    curl -Ik http://stapp01:6200
+    curl -Ik http://stapp02:6200
+    curl -Ik http://stapp03:6200
+    ```
 
 2. SSH into faulty host and switch to root user 
-```
-ssh tony@stapp01
-sudo -i
-```
+    ```
+    ssh tony@stapp01
+    sudo -i
+    ```
 
 3. Check Apache status
-```
-systemctl status httpd
-```
+    ```
+    systemctl status httpd
+    ```
 
 4. Confirms Apache is listening on `6200`
-```
-ss -tunap | grep 6200
-```
+    ```
+    ss -tunap | grep 6200
+    ```
 
 5. If not, kill the service
-```
-kill -9 <PID>
-```
+    ```
+    kill -9 <PID>
+    ```
 
 6. Restart the Apache service
-```
-systemctl restart httpd
-```
+    ```
+    systemctl restart httpd
+    ```
 
 7. Go back to the jump host and verify:
-```
-curl http://stapp01:6200
-```
+    ```
+    curl http://stapp01:6200
+    ```
 
 
 
