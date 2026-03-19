@@ -8,9 +8,12 @@ Following a security audit, the xFusionCorp Industries security team has opted t
 - Disregard the current status of SELinux via the command line; the final status after the reboot should be disabled.
 
 #### STEPS:
-1. Connect to the First App Server \
-   `ssh banner@stapp03`
-- When prompted, enter the password for user `banner`
+1. Connect to the first app server and switch to root user
+   ```
+   ssh banner@stapp03`
+   sudo -i
+   ```
+   > When prompted, enter the password for user `banner`
 
 2. Switch to Root User \
    `sudo -i`
