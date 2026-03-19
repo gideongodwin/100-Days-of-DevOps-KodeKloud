@@ -7,7 +7,7 @@ Set up a password-less authentication from user thor on jump host to all app ser
 
 ## STEPS:
 
-1. Generate an SSH key \
+1. Generate an SSH key
   ```
   ssh-keygen -t rsa
   ```
