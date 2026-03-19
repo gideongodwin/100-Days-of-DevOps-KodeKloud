@@ -29,9 +29,10 @@ The `Nautilus` system admins team has prepared scripts to automate several day-t
    */5 * * * * echo hello > /tmp/cron_text
    ```
 
-5. Verify the cron job: \
-   `crontab -l`
-
-6. Run all the above commands on the remaining servers
+5. Verify the cron job:
+   ```
+   crontab -l
+   ```
+7. Run all the above commands on the remaining servers
 
 
