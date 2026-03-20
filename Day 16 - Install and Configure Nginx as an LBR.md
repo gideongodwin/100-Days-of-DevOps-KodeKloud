@@ -14,11 +14,11 @@ They started the migration last month and it is almost done, as only the LBR ser
 ## Steps:
 
 1. SSH into LBR and verify Nginx
-  ```
-  ssh loki@stlb01
-  sudo -i
-  nginx -v
-  ```
+    ```
+    ssh loki@stlb01
+    sudo -i
+    nginx -v
+    ```
 
 2. Check App Server Apache port
     ```
