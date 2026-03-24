@@ -19,37 +19,37 @@ We need to setup a database server on Nautilus DB Server in Stratos Datacenter. 
     ```
 
 3. Start and Enable MariaDB
-  ```
-  sudo systemctl start mariadb
-  sudo systemctl enable mariadb
-  ```
+    ```
+    sudo systemctl start mariadb
+    sudo systemctl enable mariadb
+    ```
 
 4. Log into MariaDB
-  ```
-  sudo mysql
-  ```
+    ```
+    sudo mysql
+    ```
 
 5. CREATE database
-  ```
-  CREATE DATABASE kodekloud_db1;
-  ```
+    ```
+    CREATE DATABASE kodekloud_db1;
+    ```
 
 6. Create user with password
-  ```
-  CREATE USER 'kodekloud_joy'@'localhost' IDENTIFIED BY 'YchZHRcLkL';
-  ```
+    ```
+    CREATE USER 'kodekloud_joy'@'localhost' IDENTIFIED BY 'YchZHRcLkL';
+    ```
 
 7. Grant full privileges
-  ```
-  GRANT ALL PRIVILEGES ON kodekloud_db1.* TO 'kodekloud_joy'@'localhost';
-  ```
+    ```
+    GRANT ALL PRIVILEGES ON kodekloud_db1.* TO 'kodekloud_joy'@'localhost';
+    ```
 
 8. Apply Changes
-  ```
-  FLUSH PRIVILEGES;
-  ```
+    ```
+    FLUSH PRIVILEGES;
+    ```
 
 9. Exit
-  ```
-  exit
-  ```
+    ```
+    exit
+    ```
