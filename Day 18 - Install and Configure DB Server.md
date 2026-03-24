@@ -9,9 +9,9 @@ We need to setup a database server on Nautilus DB Server in Stratos Datacenter. 
 
 ## Steps:
 1. ssh into the database server
-   ```
-   ssh@peter@stdb01
-   ```
+  ```
+  ssh@peter@stdb01
+  ```
 
 2. Install MariaDB Server
   ```
