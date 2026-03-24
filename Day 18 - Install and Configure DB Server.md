@@ -1,13 +1,14 @@
 ## Day 18 - Install and Configure DB Server
 
 ## Task Details:
-We need to setup a database server on Nautilus DB Server in Stratos Datacenter. Please perform the below given steps on DB Server:
-  a. Install/Configure MariaDB server.
-  b. Create a database named kodekloud_db1.
-  c. Create a user called kodekloud_joy and set its password to YchZHRcLkL.
-  d. Grant full permissions to user kodekloud_joy on database kodekloud_db1.
+We need to setup a database server on `Nautilus DB Server` in Stratos Datacenter. Please perform the below given steps on DB Server:
+  - Install/Configure MariaDB server.
+  - Create a database named kodekloud_db1.
+  - Create a user called kodekloud_joy and set its password to YchZHRcLkL.
+  - Grant full permissions to user kodekloud_joy on database kodekloud_db1.
 
 ## Steps:
+
 1. ssh into the database server
     ```
     ssh@peter@stdb01
