@@ -10,7 +10,7 @@ Our monitoring tool has reported an issue in `Stratos` Datacenter. One of our ap
 ## Steps:
 1. Test Connectivity to the App Server from `jump host`
       ```
-      telnet stapp01 3084` or `curl http://stapp01:3004`
+      telnet stapp01 3084` or `curl http://stapp01:3004
       ```
 
 2. SSH into the affected server and switch to root user
@@ -46,7 +46,7 @@ Our monitoring tool has reported an issue in `Stratos` Datacenter. One of our ap
 
 8. Confirm Apache is listening on 3004
    ```
-   ss -tulpn | grep 3004`
+   ss -tulpn | grep 3004
    ```
 
 9. Check firewall rules
@@ -58,7 +58,7 @@ Our monitoring tool has reported an issue in `Stratos` Datacenter. One of our ap
     
 10. Restart the Apache service
       ```
-      systemctl restart httpd`
+      systemctl restart httpd
       ```
 
 11. Go back to the jump host and verify:
