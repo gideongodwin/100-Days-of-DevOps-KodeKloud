@@ -10,14 +10,14 @@ Following a security audit, the xFusionCorp Industries security team has opted t
 ## Steps:
 1. Connect to the app server and switch to root user
    ```
-   ssh banner@stapp03`
+   ssh banner@stapp03
    sudo -i
    ```
    > When prompted, enter the password for user `banner`
 
 2. Install SELinux packages
    ```
-   yum install selinux* --skip-broken -y`
+   yum install selinux-policy-targeted policycoreutils -y   
    ```
 
 3. Edit the SELinux config file:
