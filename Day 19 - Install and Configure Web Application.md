@@ -11,7 +11,7 @@ The development of these websites is still in-progress, but we want to get the s
 
 - There are two website's backups `/home/thor/blog` and `/home/thor/cluster` on `jump_host`
 
-  > Set them up on Apache in a way that blog should work on the link `http://localhost:8086/blog/` and cluster should work on link `http://localhost:8086/cluster/` on the mentioned app server.
+  - Set them up on Apache in a way that blog should work on the link `http://localhost:8086/blog/` and cluster should work on link `http://localhost:8086/cluster/` on the mentioned app server.
 
 - Once configured you should be able to access the website using curl command on the respective app server, i.e `curl http://localhost:8086/blog/` and `curl http://localhost:8086/cluster/`
 
