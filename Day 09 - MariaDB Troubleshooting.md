@@ -6,7 +6,7 @@ Look into the issue and fix the same.
 
 ## Steps:
 
-1. SSH into the Database Server
+1. SSH into the Database Server and switch to root user
    ```
    ssh peter@stdb01
    sudo -i
