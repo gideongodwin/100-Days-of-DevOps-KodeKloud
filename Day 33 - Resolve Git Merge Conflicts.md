@@ -46,7 +46,7 @@ Max has recently added some new changes and is trying to push them to the reposi
     ```
 
 6. Push changes
-```
-git push origin master
-```
-> When prompted Username: `Sarah`, Password: `Sarah_pass123`
+    ```
+    git push origin master
+    ```
+    > When prompted Username: `Sarah`, Password: `Sarah_pass123`
