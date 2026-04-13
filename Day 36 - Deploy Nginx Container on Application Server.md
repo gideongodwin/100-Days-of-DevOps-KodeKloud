@@ -9,4 +9,22 @@ Complete the task with the following instructions:
 
 ## Steps:
 
-1. 
+1. SSH into Application Server 3
+    ```
+    ssh banner@stapp03
+    ```
+
+2. Check if there are any existing containers
+    ```
+    docker ps -a
+    ```
+
+3. Deploy the Nginx Container
+    ```
+    docker run -d --name nginx_3 nginx:alpine
+    ```
+
+4. Verify the Deployment
+    ```
+    docker ps
+    ```
